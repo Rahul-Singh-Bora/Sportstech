@@ -1,34 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
 # Virtual Environment
 venv/
 .venv/
 env/
 ENV/
 
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-*.egg
-*.egg-info/
-dist/
-build/
-*.pyd
+# Test files
+test_menu.py
+test_program.py
+
+# Documentation (remove if you want to track it later)
+README.md
 
 # IDE
-.idea/
 .vscode/
+.idea/
 *.swp
 *.swo
 *~
 
 # OS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
 Thumbs.db
 
-# Test files (optional - uncomment if you don't want to track them)
-# test_*.py
